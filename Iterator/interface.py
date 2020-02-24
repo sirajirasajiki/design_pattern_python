@@ -3,13 +3,13 @@ from abc import *
 
 class Aggregate(metaclass=ABCMeta):
     @abstractmethod
-    def Iterator(self):
+    def iterator(self):
         pass
 
 
 class Iterator(metaclass=ABCMeta):
     @abstractmethod
-    def hasnext(self):
+    def has_next(self):
         pass
 
     @abstractmethod
