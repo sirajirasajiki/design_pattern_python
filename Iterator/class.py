@@ -1,4 +1,4 @@
-from interface import *
+from Iterator.interface import *
 
 
 class Subject(Aggregate):
