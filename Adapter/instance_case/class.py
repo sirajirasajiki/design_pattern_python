@@ -23,3 +23,6 @@ if __name__ == '__main__':
     print(time.get_now_unix_time_str())
     print(type(time.get_now_unix_time_str()))
 
+    # インスタンスを使うことでそのままint型でも取得できます。
+    print(time.ins.get_now_unix_time())
+    print(type(time.ins.get_now_unix_time()))
